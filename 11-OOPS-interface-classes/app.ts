@@ -29,6 +29,6 @@ class Employee implements IEmployee{
     }
 }
 
-let employee:IEmployee = new Employee("john", "fff", 59, "professor");
+let employee:Employee = new Employee("john", "fff", 59, "professor");
 employee.biography();
 
